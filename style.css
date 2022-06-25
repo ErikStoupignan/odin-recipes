@@ -1,0 +1,119 @@
+body {
+    
+    background-color: rgba(10, 9, 9, 0.853);
+    border: 5px solid black;
+    
+}
+
+                    #principal-bar {
+                        position: fixed;
+                        width: 98.8%;
+                        height: 80px;
+                        background: linear-gradient(white,gray);;
+                        opacity: .8;
+                    }
+
+h1 {
+    font-family: monospace;
+    color: black;
+    display: inline;
+}
+
+                #youtube-logo{
+                    position: fixed;
+                    font-size: 100%;
+                    padding-left: 20px;
+                    margin-top: 20px;
+                    
+                }
+
+#you {
+    padding: 3px;
+    display: inline;
+    align-items: center;
+}
+
+#tube {
+    color: white;
+    padding: 3px;
+    background-color: red;
+    border-radius: 10%;
+    display: inline;
+    
+}
+            #search-bar{
+                position:fixed;
+                margin-left: 600px;
+                margin-top: 20px;
+            }
+
+#input-search {
+width: 500px;
+padding-top: 14px;
+
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+    font-size: 1.5em;
+}
+
+.icons-bar {
+    width: 25px; 
+    height: 25px;
+    border-radius: 15%;
+}
+
+.icons-bar-right {
+    width: 30px; 
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15%;
+    justify-content: space-between;
+}
+
+            #unorder-list ul{
+                position: fixed;       
+                margin-left: 1600px;
+
+            }
+
+#others-bar li{
+    display: inline;
+}
+
+
+
+
+                    #video-big{
+                        margin-top: 100px;
+                        margin-left: 150px;
+                        margin-right: 770px;
+                    }
+
+#name-video{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#under-video li{
+    color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    justify-content: space-evenly;
+    padding:30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.icons-video {
+    width: 30px; 
+    height: 30px;
+    border-radius: 15%;
+    background-color: white;
+}
