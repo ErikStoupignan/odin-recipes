@@ -1,8 +1,6 @@
 body {
-    
     background-color: #181818;
     border: 5px solid black;
-    
 }
 
                     #principal-bar {
@@ -161,4 +159,8 @@ padding-top: 14px;
 
 #option-top-right ul li a:hover{
     background-color: rgba(137, 135, 135, 0.641);
+}
+
+#primera-foto{
+    margin-top: 20px;
 }
