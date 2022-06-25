@@ -114,6 +114,10 @@ padding-top: 14px;
     padding-bottom: 0;
 }
 
+#under-video a:hover{
+    background-color: rgba(128, 128, 128, 0.121);
+}
+
 .icons-video {
     width: 30px; 
     height: 30px;
@@ -123,9 +127,38 @@ padding-top: 14px;
 
 #video-list-right{
     border: 2px solid white;
-    padding: 20px;
-    width: 580px;
+    width: 680px;
     height: 1000px;
     margin-left: 40px;
     margin-top: 100px;
+    margin-right: 30px;
+}
+
+#option-top-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#option-top-right ul li{
+    list-style: none;
+    display: inline;
+    border: 1px solid rgb(123, 122, 122);
+    border-radius: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(225, 223, 223);
+
+    margin-right: 4px;
+    padding: 4px 8px 3px 8px;
+    background-color: #4a4949;
+}
+
+.options-top-right{
+    text-decoration: none;
+    color: white;
+}
+
+#option-top-right ul li a:hover{
+    background-color: rgba(137, 135, 135, 0.641);
 }
