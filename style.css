@@ -16,7 +16,6 @@ body {
 h1 {
     font-family: monospace;
     color: black;
-    display: inline;
 }
 
                 #youtube-logo{
@@ -84,13 +83,17 @@ padding-top: 14px;
     display: inline;
 }
 
+#video-zone{
+    display: flex;
+}
 
 
 
                     #video-big{
+                        border: 2px solid white;
                         margin-top: 100px;
                         margin-left: 150px;
-                        margin-right: 770px;
+                        height: 700px;
                     }
 
 #name-video{
@@ -116,4 +119,13 @@ padding-top: 14px;
     height: 30px;
     border-radius: 15%;
     background-color: white;
+}
+
+#video-list-right{
+    border: 2px solid white;
+    padding: 20px;
+    width: 580px;
+    height: 1000px;
+    margin-left: 40px;
+    margin-top: 100px;
 }
